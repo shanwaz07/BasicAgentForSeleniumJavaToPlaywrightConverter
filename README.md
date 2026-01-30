@@ -10,12 +10,12 @@ The system follows a simple 3-step bridge to ensure your code stays private and 
 
 ```mermaid
 graph LR
-    A[React Web UI] -->|1. Java Code| B[Node.js Server]
-    B -->|2. Call Script| C[Python Converter Tool]
-    C -->|3. Prompt| D[Ollama (Local LLM)]
-    D -->|4. Playwright Code| C
-    C -->|5. Result| B
-    B -->|6. Show Code| A
+    A["React Web UI"] -->|"1. Java Code"| B["Node.js Server"]
+    B -->|"2. Call Script"| C["Python Converter Tool"]
+    C -->|"3. Prompt"| D["Ollama (Local LLM)"]
+    D -->|"4. Playwright Code"| C
+    C -->|"5. Result"| B
+    B -->|"6. Show Code"| A
 ```
 
 ---
